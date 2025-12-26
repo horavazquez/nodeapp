@@ -4,7 +4,7 @@ pipeline {
 		nodejs 'NodeJS'
 	}
 	environment {
-		DOCKER_HUB_CREDENTIALS_ID = 'jenkins-creds'
+		DOCKER_HUB_CREDENTIALS_ID = 'github-creds'
 		DOCKER_HUB_REPO = 'horavazquez/NodeApp'
 	}
 	stages {
