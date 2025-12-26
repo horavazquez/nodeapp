@@ -5,7 +5,7 @@ pipeline {
 	}
 	environment {
 		DOCKER_HUB_CREDENTIALS_ID = 'github-creds'
-		DOCKER_HUB_REPO = 'horavazquez/NodeApp'
+		DOCKER_HUB_REPO = 'horavazquez/nodeapp'
 	}
 	stages {
 		stage('Checkout Github'){
